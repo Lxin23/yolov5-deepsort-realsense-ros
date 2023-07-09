@@ -2,7 +2,7 @@
 # 在 ros 中运行此文件
 import sys
 
-sys.path.append('/home/adminpc/yolov5-master')  # 在ros中，需要将环境添加进取
+sys.path.append('/home/adminpc/yolov5-deepsort-realsense-ros')  # 在ros中，需要将环境添加进取
 
 import rospy
 from std_msgs.msg import String  # 这个和上面个都是ros的功能包，在ros下才能使用

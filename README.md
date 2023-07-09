@@ -9,3 +9,24 @@
 ```
     det.action(pub.publish, deep_sort.update)
 ```
+
+
+如果只是测试，可以在当前目录下运行`test01.py`
+```
+    python3 test01.py
+```
+
+如果在ros功能包下，请将`test01_ros.py`移动到ros功能包中
+```
+    cp test01_ros.py <your file directory>
+```
+
+修改`test01_ros.py`第5行`/home/adminpc/yolov5-deepsort-realsense-ros`为你的文件地址
+
+然后运行
+
+```
+    python3 test01_ros.py
+```
+
+

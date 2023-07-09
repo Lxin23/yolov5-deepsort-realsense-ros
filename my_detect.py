@@ -186,8 +186,8 @@ class my_detect:
                             c = int(cls)  # integer class
                             label = None if self.det.hide_labels else (self.names[c] if self.det.hide_conf else f'ID-{output[4]} {self.names[c]}  {str(distance / 1000)[:4]}m {conf:.2f}')
 
-                            if self.names[c] == 'person':
-                                callback(label)
+
+                            callback(label)
 
                             # callback(label)  # 调用回调函数处处结果或将结果通过话题发布
 
