@@ -1,0 +1,11 @@
+<Error>
+    <Code>AccessDenied</Code>
+    <Message>Request has expired</Message>
+    <X-Amz-Expires>300</X-Amz-Expires>
+    <Expires>2021-08-04T16:31:51Z</Expires>
+    <ServerTime>2023-02-10T13:40:43Z</ServerTime>
+    <RequestId>WV8PP86F1GPTF1BM</RequestId>
+    <HostId>
+        wC0mzix19W4pjA9JU93FPkde1ZM/yklqJ9NtHYVg9e6msUj1tMlSNEr83YohHPd3c6nQ2D7U2KM=
+    </HostId>
+</Error>
