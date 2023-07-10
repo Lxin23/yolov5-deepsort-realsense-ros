@@ -7,7 +7,7 @@
 当有检测信息的时候调用publish发布出去
 
 ```
-    det.action(pub.publish, deep_sort.update)
+    det.action(pub.publi, deep_sort.update)
 ```
 
 
