@@ -186,10 +186,7 @@ class my_detect:
                             c = int(cls)  # integer class
                             label = None if self.det.hide_labels else (self.names[c] if self.det.hide_conf else f'ID-{output[4]} {self.names[c]}  {str(distance / 1000)[:4]}m {conf:.2f}')
 
-
-                            callback(label)
-
-                            # callback(label)  # 调用回调函数处处结果或将结果通过话题发布
+                            callback(label)  # 调用回调函数处处结果或将结果通过话题发布
 
                             annotator.box_label(xyxy, label, color=colors(c, True))  # 将检测结果显示(指检测框和文字)
                         if self.det.save_crop:

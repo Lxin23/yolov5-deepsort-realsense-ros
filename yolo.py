@@ -4,7 +4,10 @@ from my_deepsort import MyDeepSort
 
 
 def printf(label):  # 非ros端，将检测结果输出到终端
-    print(label)
+    _, id, *cls, dist, conf = label.split(" ")
+    cls = "".join(cls)
+    res = f"ID: {id}\ncls: {cls}\ndist: {dist}\nconf: {conf}\n"
+    print(res)
 
 
 if __name__ == '__main__':
